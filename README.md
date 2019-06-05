@@ -27,10 +27,10 @@
 ### Training a model
 
 - `python trainmodel.py {DATASET-PATH} {BUCKET-CONF}`
-	- In order to process the dataset, it has to have a header containing `LAT,LON`, representing the 2-dimensional data 
+	- In order to process the dataset (csv), it has to have a header containing `LAT,LON`, representing the 2-dimensional data 
 
 ### Testing the runtime for a given dataset
 - `./bucket {DATASET-PATH} {QUERYSET-PATH} {TOPMODEL-PATH} {BUCKET-CONFIG} {RANGE-QUERY-BOUNDS}` 
-    - In order to process the dataset & query dataset, they have to have a header containing `LAT,LON`, representing the 2-dimensional data
+    - In order to process the dataset (csv) & query dataset (csv), they have to have a header containing `LAT,LON`, representing the 2-dimensional data
 - `./rtree {DATASET-PATH} {DATASET-PATH} {RANGE-QUERY-BOUNDS}`
-  - In order to process the dataset & query dataset , they have to have a header containing `LAT,LON`, representing the 2-dimensional data
+  - In order to process the dataset (csv) & query dataset (csv) , they have to have a header containing `LAT,LON`, representing the 2-dimensional data
